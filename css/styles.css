@@ -259,6 +259,10 @@ img {
   margin-left: 8px;
   margin-bottom: 50px;
 }
+.portfolio-button.accent-button {
+  color: #ffffff;
+  background-color: var(--accent-coloure);
+}
 .portfolio-button {
   display: inline-block;
   padding-top: 6px;
