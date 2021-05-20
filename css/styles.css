@@ -22,8 +22,7 @@ body {
 /* Утилиты */
 
 .hidden {
-  visibility: hidden;
-  margin: 0px;
+  display: none;
 }
 
 ul {
@@ -104,6 +103,13 @@ img {
   font-size: 26px;
   line-height: 1.2;
   color: var(--primery-text-coloure);
+}
+.footer .logo {
+  display: inline-block;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 20px;
+  margin-right: 0px;
 }
 .nav .link {
   display: block;
@@ -240,24 +246,27 @@ img {
 }
 .img-team {
   margin-top: 0px;
-  margin-bottom: 30px;
 }
 .team .text {
   margin-top: 0px;
-  margin-bottom: 30px;
 }
 .team .list-team {
   display: flex;
   justify-content: space-between;
 }
+.wrapper-team {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 /* Основной блок портфолио */
 .portfolio-list-button {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .portfolio-list-button-item + .portfolio-list-button-item {
   margin-left: 8px;
-  margin-bottom: 50px;
 }
 .portfolio-button.accent-button {
   color: #ffffff;
@@ -325,8 +334,6 @@ img {
 }
 
 .portfolio-text {
-  margin-bottom: 20px;
-
   font-size: 16px;
   line-height: 1.8;
   color: var(--secondary-text-coloure);
